@@ -15,7 +15,7 @@ INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'G
 INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'Alejandro Fernández', subcategoria_id FROM subcategoria WHERE nombre_subcategoria LIKE '%Folclor/Popular%' LIMIT 1 ON CONFLICT DO NOTHING;
 INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'Justin Timberlake', subcategoria_id FROM subcategoria WHERE nombre_subcategoria LIKE '%Pop/Romantica%' LIMIT 1 ON CONFLICT DO NOTHING;
 INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'Caifanes en Concierto', subcategoria_id FROM subcategoria WHERE nombre_subcategoria LIKE '%Rock/Metal%' LIMIT 1 ON CONFLICT DO NOTHING;
-INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'Flow Fest 2025', subcategoria_id FROM subcategoria WHERE nombre_subcategoria LIKE '%Urbanos%' LIMIT 1 ON CONFLICT DO NOTHING;
+INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'Flow Fest 2025', subcategoria_id FROM subcategoria WHERE nombre_subcategoria LIKE '%Festivales%' LIMIT 1 ON CONFLICT DO NOTHING;
 INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'Liga MX', subcategoria_id FROM subcategoria WHERE nombre_subcategoria LIKE '%Beisbol%' LIMIT 1 ON CONFLICT DO NOTHING;
 INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'Ha*Ash', subcategoria_id FROM subcategoria WHERE nombre_subcategoria LIKE '%Pop/Romantica%' LIMIT 1 ON CONFLICT DO NOTHING;
 INSERT INTO artista_organizacion (nombre_artista_org, subcategoria_id) SELECT 'Incubus', subcategoria_id FROM subcategoria WHERE nombre_subcategoria LIKE '%Rock/Metal%' LIMIT 1 ON CONFLICT DO NOTHING;
