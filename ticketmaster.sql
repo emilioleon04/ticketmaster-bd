@@ -106,7 +106,7 @@ CREATE TABLE lista_precio (
     fase_venta VARCHAR(100),
     codigo VARCHAR(50),
     precio_base DECIMAL(10,2),
-    paquete_precio BOOLEAN DEFAULT FALSE,
+    incluye_paquete BOOLEAN DEFAULT FALSE,
     cargo_servicio_id INTEGER REFERENCES cargo_servicio(cargo_servicio_id),
     evento_id INTEGER REFERENCES evento(evento_id)
 );
